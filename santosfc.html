@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>JUSHOP</title>
+        <link rel="stylesheet" href="JUSHOP.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="keywords" content="mez, focismez, mez olcsón, Adony mez," />
+        <meta name="author" content="Varga Junior Ferenc" />
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+        <div class="p-3 mb-2 bg-light text-dark"><header>
+            <div class="fej">
+                <nav>
+                    <ul>
+                        <li id="vissza">
+                            <a href="JUSHOP.html"><img src="vissza.png" alt=""></a>
+                        </li>
+                        <li id="elso">
+                            <div class="dropdown">
+                                <button style="margin-bottom: 50px;" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a style="text-decoration: none; font-size: 30px;" href="">Klubbok</a>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Adony VSK</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a><img src="logo.png" alt="Logo" style="max-height: 300px;"></a>
+                        </li>
+                        <li id="masodik" style="margin-bottom: 50px;">
+                            <a href=""><h1>Akciós mezek</h1></a>
+                        </li>
+                        <li id="kosar">
+                            <a href=""><img src="kosar.png" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <div id="termekoldal">
+            <div class="w3-content" style="max-width:1200px">
+                <img class="mySlides" src="santos1.jfif" style="width:80%;display:none; border-radius: 25px; margin-left: auto; margin-right: auto;">
+                <img class="mySlides" src="santos2.jfif" style="display: block; width:80%; border-radius: 25px;  margin-left: auto; margin-right: auto;">
+                <img class="mySlides" src="santos3.jfif" style="width:80%;display:none; border-radius: 25px;  margin-left: auto; margin-right: auto;">
+              
+                <div class="w3-row-padding w3-section">
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="santos1.jfif" style="width:90%;cursor:pointer; border-radius: 25px" onclick="currentDiv(1)">
+                  </div>
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="santos2.jfif" style="width:90%;cursor:pointer; border-radius: 25px" onclick="currentDiv(2)">
+                  </div>
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="santos3.jfif" style="width:90%;cursor:pointer; border-radius: 25px" onclick="currentDiv(3)">
+                  </div>
+                </div>
+              </div>
+        </div>
+              
+              
+        <footer><p>&copy;Varga Junior Ferenc</p></footer></div>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,151 @@
+body{
+    color: rgb(15, 15, 15);
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.fej a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.fej ul li{
+    list-style-type: none;
+    list-style: none;
+}
+#elso{
+    margin-top: 35px;
+    float: left;
+}
+#masodik{
+    float: right;
+    margin-top: 35px;
+}
+.fej{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.fej img{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+#kosar {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    float: right;
+}
+#vissza {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    float: left;
+}
+#vissza img{
+    width: 50px;
+}
+#kosar img{
+    width: 50px;
+}
+.termekek {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+.topseller a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.topseller-cim {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.topseller ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-top: 30px;
+}
+
+.termek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    flex: 0 0 auto; 
+}
+
+.termek img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.ar {
+    font-weight: bold;
+    color: #e60000;
+    margin-left: 20px;
+}
+.ar-kosar {
+    margin-top: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kosar-icon {
+    width: 25px;
+    margin-left: 10px;
+}
+button{
+    background: none;
+    border: none;
+    
+}
+footer{
+    text-align: center;
+}
+#termekoldal{
+
+}
+/* JUSHOP.css */
+nav ul {
+    display: flex;
+    align-items: center; /* Középre igazítás függőlegesen */
+}
+
+nav ul li {
+    margin: 0 30px; /* Térköz a gombok között */
+}
+nav ul {
+    display: flex;
+    align-items: center; /* Középre igazítás függőlegesen */
+    justify-content: space-between; /* Egyenletes távolság a gombok között */
+    list-style-type: none; /* Lista pontok eltüntetése */
+    padding: 0; /* Padding eltávolítása */
+}
+
+
+nav ul li img {
+    height: auto; /* Magasság automatikus beállítása */
+    max-height: 50px; /* Maximális magasság beállítása */
+    width: auto; /* Szélesség automatikus beállítása */
+    max-width: 100%; /* Maximális szélesség beállítása */
+    vertical-align: middle; /* Igazítja a képet a szöveggel */
+}
